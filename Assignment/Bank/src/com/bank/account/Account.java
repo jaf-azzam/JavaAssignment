@@ -47,7 +47,8 @@ public class Account {
 		return amount;
 	}
 	public void setAmount(float amount) {
-		this.amount = amount;
+		System.out.println("You can not change your balance without depositing");
+//		this.amount = amount;
 	}
 	public AccountType getAccountType() {
 		return accountType;
